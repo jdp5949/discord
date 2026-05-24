@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+.coverage
+htmlcov/
+.tox/
+.DS_Store
+.idea/
+.vscode/
+
+# Jekyll site build (Pages renders from source; ignore local builds)
+docs/_site/
+docs/.jekyll-cache/
+docs/Gemfile.lock
